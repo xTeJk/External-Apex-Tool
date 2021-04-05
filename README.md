@@ -3,6 +3,7 @@
   
 ## Infos:
 Driver is detected and 2 cheat games will result in your account being banned!  
+  
 Glow is based on:
   - [NUM1] > Life + Shield 
     - light pink: 1-50,
@@ -32,7 +33,7 @@ Glow is based on:
 If you want to change keybinds use:  
 https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes  
 find interesting key `VK_` or `0x` code and put inside `main.cpp` (CheatUM) at correct place, eg.:  
-`if (GetAsyncKeyState(VK_NUMPAD1))` -> if (GetAsyncKeyState(VK_NUMPAD5))  
+`if (GetAsyncKeyState(VK_NUMPAD1))` -> `if (GetAsyncKeyState(VK_NUMPAD5))` or sth  
   
 ## Hooked function:
 If you want to change function which is being hooked by driver find:
